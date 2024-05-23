@@ -24,10 +24,11 @@ ok.forEach((box) => {
         // box.disabled=true;
         
        }
-       box.disabled=true
+       box.disabled=true;
        
       
        winPattern();
+       
       
     
     });
@@ -58,7 +59,7 @@ let winPattern=()=>{
 }
 //after winner we need to pint winner msg right
 let printWinningMsg=(winner)=>{
-    bb.innerText=`You Are The Winner This Game ${winner}   `;
+    bb.innerText=`You Are The Winner This Game ${winner}  `;
     kk.classList.remove("hide");
    
 }
